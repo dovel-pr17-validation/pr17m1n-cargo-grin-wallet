@@ -15,7 +15,7 @@ serde = "1"
 serde_derive = "1"
 toml = "0.5"
 toml_edit = "0.22"
-dirs = "2.0"
+dirs = "7.0.0"
 lazy_static = "1"
 
 ##### Grin Imports
