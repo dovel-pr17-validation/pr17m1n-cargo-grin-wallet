@@ -42,4 +42,4 @@ grin_chain = { path = "../grin/chain"}
 #####
 
 [dev-dependencies]
-ed25519-dalek = "2"
+ed25519-dalek = "3.0.0"
