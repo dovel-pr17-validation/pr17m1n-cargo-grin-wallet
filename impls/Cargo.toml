@@ -16,11 +16,11 @@ futures = "0.3"
 rand = "0.6"
 serde = "1"
 serde_derive = "1"
-serde_json = "1"
-log = "0.4"
+serde_json = "1.0.154"
+log = "0.4.35"
 ring = "0.17.14"
 chrono = { version = "0.4.11", features = ["serde"] }
-lazy_static = "1"
+lazy_static = "1.5.1"
 tokio = { version = "1.52.3", features = ["full"] }
 reqwest = { version = "0.13.4", default-features = false, features = ["socks", "native-tls", "system-proxy", "charset", "http2"] }
 

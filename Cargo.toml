@@ -23,11 +23,11 @@ exclude = ["integration"]
 clap = { version = "2.33", features = ["yaml"] }
 rpassword = "7.5.4"
 thiserror = "1"
-log = "0.4"
+log = "0.4.35"
 linefeed = "0.6"
 semver = "1.0.28"
 rustyline = "9"
-lazy_static = "1"
+lazy_static = "1.5.1"
 
 grin_wallet_api = { path = "./api", version = "5.5.1" }
 grin_wallet_impls = { path = "./impls", version = "5.5.1" }
@@ -50,5 +50,5 @@ built = { version = "0.8.0", features = ["git2"]}
 [dev-dependencies]
 url = "2.1"
 serde = "1"
-serde_json = "1"
+serde_json = "1.0.154"
 easy-jsonrpc-mw = "0.5.4"
